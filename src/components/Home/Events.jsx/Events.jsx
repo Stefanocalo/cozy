@@ -11,15 +11,11 @@ export function Events() {
 
     const {scrollYProgress} = useScroll();
     const scale = useTransform(scrollYProgress, [0, 0.5], [0.2, 1]);
-    const blur = useTransform(scrollYProgress, [0, 0.5], [0, 10]);
 
    
 
     return(
         <motion.div 
-        initial={{ opacity: 0}}
-        whileInView={{ opacity: 1}}
-        exit={{transform: 'translateY(-100PX)'}}
         style={{scale, filter: blur}}
         className="eventsContainer">
             <motion.div 
