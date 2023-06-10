@@ -1,0 +1,43 @@
+.eventsContainer {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: 'center';
+    padding: 5%;
+    margin-bottom: 5rem;
+}
+
+.cardContainer {
+    width: 30%;
+    overflow: hidden;
+    margin: 0 4%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.cardImage {
+    max-width: 90%;
+    height: 20rem;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.description {
+    width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+    .eventsContainer {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+    .cardContainer {
+        width: 100%;
+    }
+    
+}

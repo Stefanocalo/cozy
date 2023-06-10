@@ -1,0 +1,26 @@
+.aboutusContainer {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heroContainer {
+    background-image: url('../../media/img2.jpg');
+    width: 100vw;
+    height: 30rem;
+    overflow: hidden;
+    background-size:cover;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+.valuesContainer {
+    width: 80%;
+    padding: 3rem 0
+}
+
+.subtitle {
+    padding: 2rem 0;
+}
+

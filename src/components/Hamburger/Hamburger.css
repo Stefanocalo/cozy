@@ -1,0 +1,82 @@
+.close {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    backdrop-filter: blur(8px);
+    background-color: rgba(168, 143, 104, 0.8);
+    position: fixed;
+    top: 2%;
+    right: 4%;
+    z-index: 99;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bar {
+    width: 2rem;
+    height: 0.2rem;
+    margin: 0.2rem;
+    border-radius: 10px;
+    background-color: white;
+}
+.open {
+    height: 50%;
+    width: 92%;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    background-color: rgba(168, 143, 104, 0.8);
+    position: fixed;
+    top: 2%;
+    right: 4%;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.closeBtnContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 5rem;
+}
+
+.iconContainer {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuIcon {
+    font-size: 2rem;
+    color: white;
+}
+
+.HamburgerLinks {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.activeBurgerLink,
+.burgerLink {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0.6rem;
+    border-radius: 5px;
+    transition: 0.4s;
+    margin: 0 1rem;
+    font-size: 1.4rem;
+}
+
+.activeBurgerLink {
+    color: rgb(255, 255, 255);
+    background-color: rgba(136, 85, 18, 0.4);
+    border-radius: 15px;
+}
+
