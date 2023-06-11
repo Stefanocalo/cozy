@@ -21,9 +21,9 @@ export function Aboutus() {
 
     return(
         <motion.div 
-        initial={{x: -400, opacity: 0}}
-        animate={{x: 0, opacity: 1}}
-        exit={{x: 400, opacity: 0}}
+        initial={{opacity: 0}}
+        animate={{opacity: 1}}
+        exit={{opacity: 0}}
         className="aboutusContainer">
             <div className="bannerNav">
                 <NavLink to={'/'} className={({isActive, isPending}) => isActive ? 'activeLink' : isPending ? '' : 'link'}>Home</NavLink>
@@ -33,7 +33,7 @@ export function Aboutus() {
             <motion.div
             initial={{opacity: 0}}
             animate={{opacity: 1}}
-            exit={{x: 400, opacity: 0}}
+            exit={{opacity: 0}}
             transition={{ duration: 1}}
             style={{opacity, scale, borderRadius}}
             className="heroContainer"

@@ -16,7 +16,7 @@ export function Events() {
 
     return(
         <motion.div 
-        style={{scale, filter: blur}}
+        style={{scale}}
         className="eventsContainer">
             <motion.div 
             whileHover={{
